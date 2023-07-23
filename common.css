@@ -1,0 +1,202 @@
+@charset "utf-8";
+
+/* CSS Document */
+/*全局样式*/
+body {
+  font-family: "微软雅黑", Arial, Verdana, Helvetica, sans-serif, "宋体";
+  font-size: 12px;
+  color: #333;
+  background: #fff;
+}
+html{
+  width: 100vw;
+  box-sizing: border-box;
+}
+body,
+ul,
+ol,
+li,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+form,
+fieldset,
+table,
+td,
+th,
+img,
+div,
+tr,
+p,
+select,
+dl,
+dt,
+dd {
+  margin: 0;
+  padding: 0;
+  outline: none;
+}
+
+li {
+  list-style: none;
+}
+
+img {
+  border: 0 none;
+  vertical-align: middle;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+  outline: none;
+  cursor: pointer;
+}
+
+a:focus {
+  outline: none;
+}
+
+.clear {
+  clear: both;
+  height: 0px;
+  display: block;
+  line-height: 0px;
+  visibility: hidden;
+  overflow: hidden;
+  zoom: 1;
+}
+
+input {
+  vertical-align: middle;
+  border: none;
+  background: none;
+}
+
+select {
+  vertical-align: middle;
+  border: none;
+  background: none;
+}
+
+button {
+  text-align: center;
+  border: 0;
+  cursor: pointer;
+}
+
+
+
+textarea,
+input {
+  word-wrap: break-word;
+  word-break: break-all;
+  padding: 0px;
+  background: none;
+}
+
+label {
+  cursor: pointer;
+}
+
+input[type=button]::-moz-focus-inner,
+input[type=submit]::-moz-focus-inner {
+  border: none;
+}
+
+input[type=button],
+input[type=submit] {
+  cursor: pointer;
+}
+
+input:focus {
+  outline: none;
+}
+
+/* 底部样式 */
+.foot{
+  padding: 50px 0 0 0;
+  box-sizing: border-box;
+  background: #2c3336 ;
+  color: #fff;
+}
+.lines{
+  width: 100%;
+  height: 2px;
+  background-color: #fff;
+}
+.tops{
+  justify-content: space-around;
+}
+.item_t{
+  justify-content: space-around;
+  text-align: left;
+}
+.item_t img{
+  width: 80px;
+  height: 80px;
+  margin-bottom: 30px;
+}
+.item_t h1{
+  margin-bottom: 26px;
+}
+.right {
+  width: 80%;
+  color: #fff;
+}
+
+.right ul {
+  justify-content: space-around;
+  font-size: 22px;
+}
+
+.right ul a {
+  color: #fff;
+}
+
+.right ul a:hover {
+  border-bottom: 1px solid #fff;
+}
+
+.flex_x{
+  display: flex;
+}
+.flex_y{
+  display: flex;
+  flex-direction:column;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0 40px;
+  box-sizing: border-box;
+  height: 60px;
+  line-height: 60px;
+}
+
+.h_left {
+  font-size: 40px;
+  font-weight: 900;
+}
+
+.h_right ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+.h_right ul li {
+  margin-right: 2vw;
+  font-size: 30px;
+}
+
+.active {
+  border-bottom: 4px solid #353232;
+}
+.f_28{
+  font-size: 40px;
+}
